@@ -1,15 +1,18 @@
 <!DOCTYBE html>
 <head>
 <meta charset="UTF-8">
-<title>动力君评测站</title>
+<title>我的世界智慧生存服务器官网</title>
 <style type="text/css">
+  .center{
+    color:red;
+  }
     div {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
     body {
  cursor:url('Arrow.cur'),auto;
-      background-image:url('U-enaPro4.PNG');
+      background-image:url('OIP-C.jpg');
     }
     a {
         color:yellow;
@@ -20,15 +23,47 @@
     }
 body {
 background-color: #FFFFFF;
-} 
+}
+.navbar {
+  background-image: url('Desktop.jpg');
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 93%;
+}
+
+/* 为导航栏中的链接设置样式 */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size:15px;
+}
+
+/* 更改悬停时链接的颜色 */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 为 active/current 链接添加颜色 */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
     </style>
 </head>
 <html>
     <body>
-        <div style="width:340px;margin:auto;">
+        <div style="width:400px;margin-right:50px;margin-left:50px;">
         <font color="#FFFFFF">
         </br>
-    <h2>----欢迎进入动力君评测站----</h2>
+        
+    <h2 class="center">--我的世界智慧生存服务器--</h2>
     <script language="javascript">
       var now = new Date();
       var hour = now.getHours();
@@ -58,8 +93,8 @@ background-color: #FFFFFF;
       }
       </script>
     <h3> <a href="home-cn.html">首页</a>
-    <a href="pk-cn.html">参与活动</a>
-    <a href="">意见反馈</a>
+    <a href="pk-cn.html">世界网络</a>
+    <a href="">更新公告</a>
     <a href="">菜鸟教程</a>
     <select name="pageselect" onchange="self.location.href=options[selectedIndex].value">
         <option value="home-cn.html">简体中文（中国）</option>
@@ -67,7 +102,7 @@ background-color: #FFFFFF;
         <option value="home-us.html">English(United States)</option>
         <option value="home-jp.html">日本语</option>
       </select>
-      <b>网页位置>首页</b>
+      <b>网页位置:首页</b>
     </h3>
 <b>
     <h3>所有游戏评测视频>>></h3>
@@ -106,7 +141,13 @@ background-color: #FFFFFF;
     <a href="">使用规则</a>
     <a href="">隐私协议</a>
     <a href="">赞助支持</a>
-<iframe width="300px" height="30px" frameborder="0" scrolling="no" hspace="0" src="https://muzihuaner.github.io/getlocationandip/"></iframe>
+    <div class="navbar">
+      <a href="#home" class="active">官方B站</a>
+      <a href="#home" class="active">开始游玩</a>
+      <a href="#home" class="active">服务器规则</a>
+      <a href="#home" class="active">问题反馈</a>
+      <a href="#home" class="active">世界网络</a>
+    </div>
 </div>
 </br>
 </br>
